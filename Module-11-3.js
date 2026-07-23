@@ -1,4 +1,4 @@
-//todo:         Module no - 11.2        topic:  String slice, join, concatenate and includes
+//todo:         Module no - 11.3       topic:  String slice, join, concatenate and includes
 
 // string in includes:   case sensitive: 
 const email = 'ashraful@gimail.com';
