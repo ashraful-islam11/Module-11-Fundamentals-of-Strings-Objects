@@ -54,12 +54,13 @@ const  worldLeader = {
 
     muslimCountry : {
         fast: 'saudi Arabia',
-        second: 'tarky',
+        second: 'tarkiy',
 
         muslimBoss : {
             bossName : 'khamini',
             land : 'iran',
-            power: true
+            power: true,
+            religiousLeader: 'Ali khamini'
         }
     }
 }
@@ -72,3 +73,10 @@ console.log(nasted);
 
 let nastedUseBracket = worldLeader['muslimCountry']['muslimBoss']['power'];
 console.log(nastedUseBracket);
+
+// set nested keys value in object: 
+ 
+let setLeaderName =worldLeader.muslimCountry.muslimBoss.religiousLeader ='Mostofa ali khamini ';
+console.log(setLeaderName);
+
+console.log(worldLeader);
